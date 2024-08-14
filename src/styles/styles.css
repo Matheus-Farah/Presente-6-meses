@@ -10,21 +10,21 @@ body {
 }
 
 .frase {
-  margin-top: 30vh;
+  margin-top: 25vh;
 }
 
 .texto {
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 .botao {
-  font-size: 4rem;
+  font-size: 2.5rem;
 }
 
 /* Página da Negação */
 
 .frase-triste {
-  margin-top: 20vh;
+  margin-top: 10vh;
 }
 
 .fundo {
@@ -36,7 +36,7 @@ body {
 
 .love {
   background-image: url("../assets/img/fundo-coracao.jpeg");
-  background-size: 150vh;
+  background-size: 160vh;
   background-attachment: fixed;
   background-position: center;
 
@@ -44,9 +44,53 @@ body {
 }
 
 .frase-amor {
-  margin-top: 20vh;
+  margin-top: 15vh;
 }
 
 .botao-voltar {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 750px) and (min-height: 1334px) {
+  .frase {
+    height: 30vh;
+  }
+
+  .texto,
+  .botao {
+    font-size: 4rem;
+  }
+
+  .frase-triste {
+    height: 20vh;
+
+    img {
+      margin-top: 3rem !important;
+    }
+  }
+  .texto-triste {
+    margin-top: 3rem !important;
+
+    p {
+      font-size: 4rem !important;
+      margin-bottom: 2rem;
+    }
+  }
+
+  .frase-amor {
+    margin-top: 20vh;
+  }
+
+  .texto-maior {
+    font-size: calc(1.375rem + 1.5vw) !important;
+  }
+
+  .texto-botao {
+    font-size: 2.5rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .botao-voltar {
+    font-size: 4rem;
+  }
 }
